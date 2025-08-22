@@ -1,0 +1,37 @@
+# CODEOWNERS file for file-utility-93
+# Global owners - will be requested for all PRs
+* @Armor-test/team-security @Armor-test/squad-database @Armor-test/unit-cloud
+
+# Directory ownership
+/third_party/ @Armor-test/team-security @Armor-test/unit-devops
+/lib/ @Armor-test/unit-design @Armor-test/squad-product
+/views/ @Armor-test/squad-qa @Armor-test/dept-notifications
+/services/ @Armor-test/team-logging @Armor-test/grp-ui
+/build/ @Armor-test/squad-qa @Armor-test/dept-api
+/tools/ @Armor-test/squad-mobile @Armor-test/unit-design
+/helpers/ @Armor-test/dept-data @Armor-test/unit-governance @Armor-test/dept-notifications
+/internal/ @Armor-test/dept-billing @Armor-test/dept-api @Armor-test/grp-api
+/docs/ @Armor-test/grp-ui @Armor-test/dept-identity
+/static/ @Armor-test/squad-reporting @Armor-test/squad-api
+/core/ @Armor-test/grp-integration @Armor-test/unit-test @Armor-test/dept-security
+/scripts/ @Armor-test/team-security @Armor-test/team-core
+
+# File type ownership
+*.config @Armor-test/squad-qa @Armor-test/grp-payments @Armor-test/squad-mobile
+*.kt @Armor-test/team-reporting @Armor-test/dept-test @Armor-test/squad-api
+*.java @Armor-test/squad-research @Armor-test/squad-reporting @Armor-test/unit-test
+*.toml @Armor-test/squad-tooling @Armor-test/dept-api @Armor-test/dept-notifications
+*.jsx @Armor-test/unit-governance @Armor-test/squad-performance
+*.gradle @Armor-test/grp-reporting @Armor-test/dept-security
+*.py @Armor-test/dept-reliability @Armor-test/squad-product
+*.graphql @Armor-test/unit-devops @Armor-test/dept-automation
+*.php @Armor-test/dept-identity @Armor-test/dept-reporting @Armor-test/squad-tooling
+*.tsx @Armor-test/team-research @Armor-test/squad-mobile @Armor-test/dept-release
+*.yml @Armor-test/squad-cache @Armor-test/team-frontend
+
+# Security and special files
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+Dockerfile @Armor-test/devops @Armor-test/infra
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+package.json @Armor-test/dependency-team @Armor-test/security
